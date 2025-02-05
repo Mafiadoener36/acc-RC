@@ -41,14 +41,14 @@ tmpDir=.tmp/META-INF/com/google/android
   cat << EOF > module.json
 {
     "busybox": "https://github.com/Magisk-Modules-Repo/busybox-ndk",
-    "changelog": "https://raw.githubusercontent.com/VR-25/$id/master/changelog.md",
+    "changelog": "https://raw.githubusercontent.com/Mafiadoener36/$id/RC/changelog.md",
     "curl": "https://github.com/Zackptg5/Cross-Compiled-Binaries-Android/tree/master/curl",
-    "onlineInstaller": "https://github.com/VR-25/$id/releases/download/$version/install-online.sh",
-    "tgz": "https://github.com/VR-25/$id/releases/download/$version/${basename}.tgz",
-    "tgzInstaller": "https://github.com/VR-25/$id/releases/download/$version/install-tarball.sh",
+    "onlineInstaller": "https://github.com/Mafiadoener36/$id/releases/download/$version/install-online.sh",
+    "tgz": "https://github.com/Mafiadoener36/$id/releases/download/$version/${basename}.tgz",
+    "tgzInstaller": "https://github.com/Mafiadoener36/$id/releases/download/$version/install-tarball.sh",
     "version": "$version",
     "versionCode": $versionCode,
-    "zipUrl": "https://github.com/VR-25/$id/releases/download/$version/${basename}.zip"
+    "zipUrl": "https://github.com/Mafiadoener36/$id/releases/download/$version/${basename}.zip"
 }
 EOF
 }
